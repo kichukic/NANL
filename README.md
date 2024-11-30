@@ -3,20 +3,20 @@ APOD Function(Astronomy Picture of the Day )
 
 To utilize APOD functions of NASA'S API you have to call the library like this:
 
-- [x]  npm i aerolib
+- [x]  npm i aerolib :heavy_check_mark
 
 
 async/await
 ___________
 
-const data =  await getAPODdata()
+const data =  await aerolib.getAPODdata()
 console.log(data.copyright)
         console.log(data.date)
              console.log(data.explanation)
 
 promises
 _________
-getAPODdata.then((data)=>{
+aerolib.getAPODdata.then((data)=>{
     console.log(data)
 })
 
