@@ -5,6 +5,9 @@ To utilize APOD functions of NASA'S API you have to call the library like this:
 
 - [x]  npm i aerolib 
 
+npm source |
+:-----------
+https://www.npmjs.com/package/aerolib
 
 async/await
 ___________
