@@ -116,10 +116,3 @@ export const near_earth_objects = async (startDate, endDate) => {
   }
 };
 
-
-near_earth_objects("2015-09-07","2015-09-08").then((data)=>{
- data.forEach((dat)=>{
-    console.log(dat);
-    
- })
-})
