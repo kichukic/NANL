@@ -1,8 +1,8 @@
 import { getAPODdata } from "./libControllers/APOD.mjs"
-import { NeoWs } from "./libControllers/NeoWs.mjs"
+import { NeoWselementcount,near_earth_objects } from "./libControllers/NeoWs.mjs"
 
 
 
 export {
-    getAPODdata,NeoWs
+    getAPODdata,NeoWselementcount,near_earth_objects
 }
