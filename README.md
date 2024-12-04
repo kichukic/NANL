@@ -75,15 +75,15 @@ Example Usage
    Fetch Near-Earth Objects for a Date Range
 
    ```javascript
-  aerolib.near_earth_objects("2015-09-07", "2015-09-08").then((data) => {
-      data.forEach((d) => {
-          console.log(d.links)
-          console.log(d.id)
-          console.log(d.neo_reference_id)
-          console.log(d.name)
-          console.log(d.nasa_jpl_url)
-      })
-  })
+        aerolib.near_earth_objects("2015-09-07", "2015-09-08").then((data) => {
+            data.forEach((d) => {
+                console.log(d.links)
+                console.log(d.id)
+                console.log(d.neo_reference_id)
+                console.log(d.name)
+                console.log(d.nasa_jpl_url)
+            })
+        })
    ```
 
    Example Data:
