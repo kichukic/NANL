@@ -1,0 +1,10 @@
+{
+    "urldata":{
+        "APOD":"https://api.nasa.gov/planetary/apod?api_key="
+    },
+    "MRPdata":{
+        "baseapi":"https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?",
+        "sol":"sol=",
+        "key":"&api_key="
+    }
+}
